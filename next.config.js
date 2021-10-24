@@ -1,6 +1,9 @@
 module.exports = {
-  // reactStrictMode: true,
-  images: {
-    domains: ["links.papareact.com", "image.tmdb.org"],
-  }
-}
+    // reactStrictMode: true,
+    future: {
+        webpack5: true,
+    },
+    images: {
+        domains: ["links.papareact.com", "image.tmdb.org"],
+    },
+};
