@@ -3,12 +3,11 @@ import Image from "next/image";
 import Header from "../Components/Header";
 import Movies from "../Components/Movies";
 import NavBar from "../Components/NavBar";
-import styles from "../styles/Home.module.css";
 import requests from "../utils/requests";
 
 export default function Home({ results }) {
     return (
-        <div className={styles.container}>
+        <div className="h-full w-full ">
             <Head>
                 <title>Hulu Clone by Nitish</title>
                 <meta
